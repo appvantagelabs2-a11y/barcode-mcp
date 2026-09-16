@@ -45,7 +45,9 @@ claude mcp add barcode --transport http https://mcp.casuyi.com/mcp
 
 ## Pricing
 
-**All tools are completely free.** No API key, no payment, no signup — the endpoints are free marketing for the [Casuyi](https://casuyi.com) app portfolio. Please use them.
+**All tools are completely free.** No API key, no payment, no signup.
+
+A free service by [Casuyi](https://casuyi.com).
 
 (The x402 pay-per-call + trial-key flow is implemented in `http-paid.js` but disabled on the hosted servers; set `PAY_TO_ADDRESS` to re-enable when self-hosting.)
 
