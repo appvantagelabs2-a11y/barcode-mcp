@@ -45,7 +45,12 @@ claude mcp add barcode --transport http https://mcp.casuyi.com/mcp
 
 ## Pricing — two ways to use paid tools
 
-1. **Trial key (easiest)** — ask for a free trial key via a [GitHub issue](../../issues).
+1. **Free trial key (easiest, self-serve)** — one curl, no account:
+   ```bash
+   curl -s -X POST https://czid.casuyi.com/trial -H 'content-type: application/json' -d '{"email":"you@example.com"}'
+   # -> {"key":"trial-…","quota":50,"validDays":90}
+   ```
+   50 free paid calls, 90 days, **works on both mcp.casuyi.com and czid.casuyi.com**.
    Send it as `X-API-Key: *** header; responses carry `X-Trial-Remaining: N`.
 2. **x402 (permissionless, no account)** — an unpaid decode/render call returns HTTP `402`
    with USDC payment instructions; an x402-capable agent client signs and retries automatically.
