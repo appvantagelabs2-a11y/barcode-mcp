@@ -63,7 +63,7 @@ curl -sS -X POST https://mcp.casuyi.com/mcp \
 
 ## Docs
 
-- [examples/quickstart.md](examples/quickstart.md) — every call shape: list tools, render, decode, 402 challenge, trial key
+- [examples/quickstart.md](examples/quickstart.md) — every call shape: list tools, render, decode
 - [examples/clients.md](examples/clients.md) — connect from Claude Code / Desktop / Cursor / any MCP client
 - [clients/python.py](clients/python.py) — minimal Python client (stdlib only)
 
