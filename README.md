@@ -49,7 +49,6 @@ claude mcp add barcode --transport http https://mcp.casuyi.com/mcp
 
 A free service by [Casuyi](https://casuyi.com).
 
-(The x402 pay-per-call + trial-key flow is implemented in `http-paid.js` but disabled on the hosted servers; set `PAY_TO_ADDRESS` to re-enable when self-hosting.)
 
 ## Try it right now (curl, no client needed)
 
