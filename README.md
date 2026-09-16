@@ -18,8 +18,8 @@ Claude Code, Claude Desktop, Cursor, VS Code, and any MCP client.
 
 | Tool | What it does |
 |---|---|
-| `list_formats()` | **free** | Table of supported symbologies and their capabilities |
-| `validate_gtin(code)` | **free** | Product-code rules: length + mod-10 checksum → `{valid, type, normalized}` (EAN-13/8, UPC-A/E, ITF…) |
+| `list_formats()` | Table of supported symbologies and their capabilities |
+| `validate_gtin(code)` | Product-code rules: length + mod-10 checksum → `{valid, type, normalized}` (EAN-13/8, UPC-A/E, ITF…) |
 | `render_barcode(text, format, scale?)` | Render any supported symbology as base64 PNG. Every render is decoded back before returning — failures come with a `warning`, never silently |
 | `decode_barcode(image_base64, formats?)` | Detect + decode all barcodes in an image → `[{format, text}]` — QR, Aztec, DataMatrix, Code128/39/93, EAN-13/8, UPC-A/E, ITF, PDF417, Codabar |
 
