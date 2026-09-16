@@ -68,5 +68,5 @@ curl -sS -X POST https://mcp.casuyi.com/mcp \
 
 ## Status / support
 
-Open an [issue](../../issues) for: trial keys, mainnet x402, a symbology you need, size limits
+Open an [issue](../../issues) for: a symbology you need, size limits
 (images are accepted up to ~4 MB base64), uptime questions.
