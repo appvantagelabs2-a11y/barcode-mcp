@@ -16,7 +16,7 @@ Claude Code, Claude Desktop, Cursor, VS Code, and any MCP client.
 
 ## Tools
 
-| Tool | Price | What it does |
+| Tool | What it does |
 |---|---|
 | `list_formats()` | **free** | Table of supported symbologies and their capabilities |
 | `validate_gtin(code)` | **free** | Product-code rules: length + mod-10 checksum → `{valid, type, normalized}` (EAN-13/8, UPC-A/E, ITF…) |
